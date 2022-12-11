@@ -1,0 +1,13 @@
+Page profile :
+- Ranks
+- Level (barre d'xp ?)
+
+Modal settings:
+Toggle 2FA
+upload avatar
+
+is2FA = /api/users/me
+(pour plus tard, appeler patch)
+
+upload = POST /api/avatar
+get = GET /api/avatar/(username or me)/size (= original | large | medium | thumbnail) 
